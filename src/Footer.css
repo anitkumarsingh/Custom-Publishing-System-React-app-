@@ -1,0 +1,157 @@
+
+  /* Resets
+  -------------------------------------------------- */
+  
+  iframe {
+    border: 0;
+  }
+  
+  .embed-responsive {
+    margin-bottom: 1rem;
+  }
+  
+  /* Bootstrap "B" icon */
+  .bs-docs-booticon {
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto 1rem;
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 6rem;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #cdbfe3;
+    border-radius: 15%;
+  }
+  .bs-docs-booticon:hover,
+  .bs-docs-booticon:focus {
+    text-decoration: none;
+  }
+  
+  /* Footer
+  -------------------------------------------------- */
+  
+  .colophon:before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 1px;
+    margin: 4rem auto;
+    background-color: #eee;
+  }
+  .colophon ul,
+  .colophon p {
+    text-align: center;
+    font-size: .75rem;
+    color: #999;
+  }
+  .colophon ul {
+    margin-left: 0;
+  }
+  .colophon ul li {
+    display: inline;
+    padding: 0 .75rem;
+  }
+  .colophon ul a {
+    white-space: nowrap;
+  }
+  
+  
+  
+  /* Ads
+  -------------------------------------------------- */
+  
+  .carbonad {
+    width: auto !important;
+    height: auto !important;
+    min-height: 130px;
+    padding: 15px;
+    margin-bottom: 30px;
+    background: #4bb7ca !important;
+    border: 0 !important;
+    border-radius: 4px;
+  }
+  .carbonad-img {
+    margin: 0 !important;
+  }
+  .carbonad-text {
+    float: none !important;
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    max-width: 240px;
+    margin-top: 0 !important;
+    margin-left: 150px !important;
+    margin-right: 10px !important;
+    padding-top: 0 !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    line-height: 1.3;
+  }
+  .carbonad-tag {
+    float: none !important;
+    display: block !important;
+    width: auto !important;
+    padding-top: 0 !important;
+    margin-left: 150px !important;
+    margin-bottom: 0;
+    text-align: left !important;
+    font-family: inherit !important;
+  }
+  #azcarbon img:last-child {
+    margin-bottom: 0; /* undo phantom image margin */
+  }
+  
+  @media (min-width: 980px) {
+    .carbonad {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 160px !important;
+      margin: 0;
+    }
+    .carbonad-img {
+      float: none !important;
+      margin: 0 0 10px !important;
+    }
+    .carbonad-text {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      font-size: 12px !important;
+    }
+    .carbonad-tag {
+      margin-left: 0 !important;
+    }
+  }
+  
+  
+  
+  /* List page
+  -------------------------------------------------- */
+  .list {
+    padding-left: 0;
+    list-style: none;
+  }
+  .list li {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .list span {
+    float: right;
+    color: #999;
+  }
+  
+  
+  iframe[data-url^="https://jsbin.com"] {
+    border-color: rgba(0,0,0,.1) !important;
+  }
+  
+  @media (min-width: 1200px) {
+    .jsbin-wide {
+      margin-left: -226px;
+      margin-right: -226px;
+    }
+  }
+  
