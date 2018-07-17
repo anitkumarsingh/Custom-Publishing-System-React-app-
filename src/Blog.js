@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 // import {post} from './Dashboard/data';
-// import { Link } from 'react-router-dom';
 import axios from './axios';
 // import SinglePost from './SinglePost';
 // import { Router} from 'react-router';
@@ -20,7 +19,7 @@ class BlogPost extends Component {
             redirect: false,
         }
 
-        console.log(props.match, props.params)
+        // console.log(props.match, props.params)
     }
 
     componentDidMount() {

@@ -18,25 +18,14 @@ class FullPost extends Component {
             loadedPost: null,
             postId: props.match.params.postid
         }
-
-
     }
     componentDidMount() {
         if (this.state.postId) {
-            console.log("fetchinng", this.state.postId)
             axios.get(`https://jsonplaceholder.typicode.com/posts/${this.state.postId}`)
                 .then(response => {
-                    console.log(response);
                     this.setState({ loadedPost: response.data });
                 });
         }
-    }
-
-    deletePostHandler = () => {
-        // axios.delete(`https://jsonplaceholder.typicode.com/posts/${this.props.id}`)
-        //     .then(response => {
-        //         console.log(response);
-        //     });
     }
 
     render() {
