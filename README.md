@@ -23,7 +23,7 @@ Add Google Client ID \
 you can generate one in [Google API Console](https://console.developers.google.com/apis/credentials)\
 Add your Google Client ID in Welcome.js file
 ## Available Scripts
-in the project directory, you can run **npm start** \
+In the project directory, you can run **npm start** \
 Run the app in the development mode.\
 Open [Localhost](http://localhost:3000) to view it in the browser.
 
