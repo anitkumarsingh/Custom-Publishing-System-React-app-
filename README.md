@@ -3,7 +3,7 @@
 Publish blogs and view them
 Requests are cached in session storage to limit the use of the API
 ## What is this ?
-A personal project and assignment given by hiring company, built with React and Google 0-Auth API, to publish and view blog post.
+A personal project built with React and Google 0-Auth API, to publish and view blog post.
 ### [Live Demo](https://customblogsys-anit.firebaseapp.com/)
 ---
 ## Assignment Problem Statement
