@@ -4,7 +4,7 @@ Publish blogs and view them
 Requests are cached in session storage to limit the use of the API
 ## What is this ?
 A personal project built with React and Google 0-Auth API, to publish and view blog post.
-### [Live Demo](https://customblogsys-anit.firebaseapp.com/)
+### [Live Demo](https://custom-blog-system.netlify.app/)
 ---
 ## Assignment Problem Statement
 Design and develop a custom publishing system that comprises of the following features:
