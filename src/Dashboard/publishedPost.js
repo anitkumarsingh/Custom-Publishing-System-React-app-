@@ -1,6 +1,5 @@
 import React from 'react';
 import { post } from './data';
-// import { Table } from 'react-bootstrap';
 
 class PublishedPost extends React.Component {
   constructor(props) {

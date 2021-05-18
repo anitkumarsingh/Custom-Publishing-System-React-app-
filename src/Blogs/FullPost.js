@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './FullPost.css';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Switch,
-  Redirect
-} from 'react-router-dom';
 
 class FullPost extends Component {
   constructor(props) {
